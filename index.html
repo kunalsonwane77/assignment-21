@@ -14,7 +14,7 @@
         }
         .container{
             
-            height: 600px;
+            height: 750px;
             width: 550px;
             margin: 0 auto;
             background-color: white;
@@ -40,6 +40,21 @@
             top: 15px;
             
         }
+        .recipt-content{
+            background-color: rgb(237, 249, 185);
+            padding: 50px;
+      
+        }
+        .receipt-details{
+          
+             display: flex;
+            justify-content: center;
+         
+           
+        }
+        .receipt-details p b{
+            margin-right: 30px;
+        }
     </style>
 </head>
 <body>
@@ -53,15 +68,27 @@
 
    <div class="recipt-content">
        
-    <div class="receipt-details">                    <b></b> 
-        <p><b>Date:</b>  May 26, 2024</p>
-        <p><b>Receipt #</b> : 123456789</p>
-        <p><b>Address:</b>   123 Book Street, Booktown, BK 12345</p>
+    <div class="receipt-details"> 
+        <div class="detail1">
+            <p><b>Date:</b>  
+            <p><b>Receipt #:</b>
+            <p><b>Address:</b> 
+             <p><b>Customer Name:</b></p>   
+              <p><b>Email:</b></p>  
+
+        </div>  
+        
+        <div class="receipt-details2">
+         <p>May 26, 2024</p> 
+         <p>123456789</p> 
+        <p>123 Book Street, Booktown, BK 12345</p>  
+        <p>Jane Doe</p>
+        <p> jane.doe@example.com</p>
+          
+        </div>
+     
     </div>
-    <div class="customer-details">
-        <p><b>Customer Name:</b>    Jane Doe</p>
-        <p><b>Email:</b>  jane.doe@example.com</p>
-    </div>
+   
     <div class="book-details">
         <h2>Book Purchase</h2>
         <p><b>Title:</b>   The Great Gatsby</p>
