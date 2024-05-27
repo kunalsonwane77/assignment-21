@@ -13,12 +13,13 @@
             align-items: center;
         }
         .container{
-            
-            height: 750px;
-            width: 550px;
+            border-radius: 3px;
+            height: 720px;
+            width: 470px;
             margin: 0 auto;
             background-color: white;
             box-shadow: 0 0 5px 1px gray;
+
            
         
         }
@@ -41,8 +42,9 @@
             
         }
         .recipt-content{
+            height: 350px;
             background-color: rgb(237, 249, 185);
-            padding: 50px;
+            padding: 20px;
       
         }
         .receipt-details{
@@ -54,6 +56,20 @@
         }
         .receipt-details p b{
             margin-right: 30px;
+        }
+        .book-details{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .book{
+            margin-right:40px;
+        }
+        .recipt-footer{
+             text-align: center;
+             margin-top: 30px;
+            font-size: 14px;
+            color: #555;
+           
         }
     </style>
 </head>
@@ -88,19 +104,31 @@
         </div>
      
     </div>
-   
-    <div class="book-details">
-        <h2>Book Purchase</h2>
-        <p><b>Title:</b>   The Great Gatsby</p>
-        <p><b>Author:</b>  F. Scott Fitzgerald</p>
-        <p><b>Price:</b>  $10.99</p>
+       <h2>Book Purchase</h2>
+    <div class="receipt-details">
+        
+        <div class="book">
+        <p><b>Title:</b></p>   
+        <p><b>Author:</b> </p>
+        <p><b>Price:</b></p> 
+      </div>
+
+        <div>
+
+            <p>The Great Gatsby</p>
+            <p>F. Scott Fitzgerald</p>
+            <p>$10.99</p> 
+
+
+        </div>
     </div>
      
    </div>
    
     <div class="recipt-footer">
 
-
+        <p>Thank you for shopping with us!</p>
+        <p>bookswapcorner.netlify.app/</p>
 
     </div>
 
